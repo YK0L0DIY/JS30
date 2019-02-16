@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="keys">
+    <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">a1</span>
+    </div>
+    <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">b1</span>
+    </div>
+    <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">c1</span>
+    </div>
+    <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">c2</span>
+    </div>
+    <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">d1</span>
+    </div>
+    <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">e1</span>
+    </div>
+    <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">f1</span>
+    </div>
+    <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">g1</span>
+    </div>
+    <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">g1s</span>
+    </div>
+</div>
+
+<audio data-key="65" src="sounds/a1.wav"></audio>
+<audio data-key="83" src="sounds/b1.wav"></audio>
+<audio data-key="68" src="sounds/c1.wav"></audio>
+<audio data-key="70" src="sounds/c2.wav"></audio>
+<audio data-key="71" src="sounds/d1.wav"></audio>
+<audio data-key="72" src="sounds/e1.wav"></audio>
+<audio data-key="74" src="sounds/f1.wav"></audio>
+<audio data-key="75" src="sounds/g1.wav"></audio>
+<audio data-key="76" src="sounds/g1s.wav"></audio>
+
+<script>
+
+    function playSound(e) {
+        const key = document.querySelector(`.key[data-key="${e.keyCode}"]`); //procura o botao clicado
+        const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`); //procura se exite audio associado
+        if (!audio) return; //verifica se existe audio
+        audio.currentTime = 0; //para comecar o audio de novo
+        audio.play(); //inicia o audio
+        key.classList.add("playing"); //adiciona a propriedade plaing
+    }
+
+    function removeTransition(e) {
+        if (e.propertyName !== 'transform') return; //se nao estiver a ocorrer nenhuma trsicao nao executa o codigo
+        this.classList.remove("playing");
+    }
+
+    window.addEventListener('keydown', playSound);
+
+    const keys = document.querySelectorAll('.key');
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+</script>
+
+
+</body>
+</html>
