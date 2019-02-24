@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae225dbd-eb62-4417-b1f0-51a5be4a7dc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day13/index-START.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/index-START.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/index-start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/index-START.html" beforeDir="false" afterPath="$PROJECT_DIR$/day10/index-START.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +22,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day13/index-START.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/day16/index-start.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -51,13 +56,15 @@
         <option value="$PROJECT_DIR$/day10/index-START.html" />
         <option value="$PROJECT_DIR$/day8/index-START.html" />
         <option value="$PROJECT_DIR$/day11/scripts.js" />
+        <option value="$PROJECT_DIR$/day15/index-START.html" />
+        <option value="$PROJECT_DIR$/day16/index-start.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="283" />
-    <option name="width" value="889" />
+    <option name="x" value="1601" />
+    <option name="y" value="189" />
+    <option name="width" value="879" />
     <option name="height" value="485" />
   </component>
   <component name="ProjectView">
@@ -71,16 +78,6 @@
             <path>
               <item name="JS30" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS30" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS30" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS30" type="462c0819:PsiDirectoryNode" />
-              <item name="day8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS30" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS30" type="462c0819:PsiDirectoryNode" />
-              <item name="day12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,17 +95,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day16" />
+      <recent name="$PROJECT_DIR$/day15" />
+      <recent name="$PROJECT_DIR$/day14" />
+      <recent name="$PROJECT_DIR$/day13" />
+      <recent name="$PROJECT_DIR$/day12" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day6" />
       <recent name="$PROJECT_DIR$/day5" />
       <recent name="$PROJECT_DIR$/day3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/day13" />
-      <recent name="$PROJECT_DIR$/day12" />
-      <recent name="$PROJECT_DIR$/day10" />
-      <recent name="$PROJECT_DIR$/day9" />
-      <recent name="$PROJECT_DIR$/day8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,17 +143,19 @@
       <workItem from="1550737643321" duration="132000" />
       <workItem from="1550737960299" duration="2122000" />
       <workItem from="1550870327065" duration="320000" />
-      <workItem from="1550948376476" duration="649000" />
+      <workItem from="1550948376476" duration="1574000" />
+      <workItem from="1551020788703" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26940000" />
+    <option name="totallyTimeSpent" value="29532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="1280" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12137007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06694781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,7 +294,28 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/day13/index-START.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/index-START.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15/index-START.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/index-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
